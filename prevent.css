@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Exo;
+}
+body{
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.logo{
+	width: 100px;
+	height: 100px;
+	margin-left: 226px;
+	margin-top: 20px;
+}
+.nd .cocci .sal{
+	text-align: center;
+}
+footer{
+	background: linear-gradient(to bottom right, rgba(236,34,41,0.3), #FFCD96);
+	margin-top: auto;
+}
+.social-media{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.social-media a{
+	text-decoration: none;
+	font-size: 30px;
+	margin: 20px 20px;
+	color: #000;
+	opacity: 0.7;
+}
+.rights{
+	letter-spacing: 2px;
+	font-size: 0.8em;
+	color: #000;
+	text-align: center;
+	margin: unset;
+	line-height: 25px;
+	padding-bottom: 10px;
+	opacity: 1;
+}
+h1{
+	display: block;
+	text-align: center;
+	margin-top: 30px;
+	letter-spacing: 2px;
+}
+.flex-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 20px;
+}
+.nd,.cocci,.sal{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+h2{
+	text-align: center;
+	letter-spacing: 2px;
+	text-decoration: underline;
+}
+h3{
+	text-align: center;
+	margin-top: 20px;
+	opacity: 0.8;
+	letter-spacing: 2px;
+}
+table, td, th {
+  	border: 1px solid black;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 10px;
+  	text-align: center;
+}
+table {
+	width: 30%;
+  	border-collapse: collapse;
+}
+ul{
+	text-align: left;
+	margin-left: 250px;
+	margin-right: 240px;
+	margin-top: 10px;
+	letter-spacing: 1px;
+}
+
+
+
+
+
+/*********************************Mobile View*****************************************/
+@media only screen and (max-width: 480px){ 
+	.logo{
+	width: 70px;
+	height: 70px;
+	margin-left: 40px;
+	margin-top: 10px;
+	}
+	h1{
+		font-size: 20px;
+	}
+	h2{
+		font-size: 18px;
+	}
+	h3{
+		font-size: 15px;
+	}
+	ul{
+		font-size: 13px;
+		margin-left: 40px;
+		margin-right: 20px;
+	}
+	table, td, th {
+		font-size: 13px;
+  		text-align: center;
+	}
+	table{
+		width: 80%;
+	}
+	.social-media a{
+		font-size: 20px;
+		margin: 10px 10px;
+	}
+	.rights{
+		font-size: 0.5em;
+	}
+}
