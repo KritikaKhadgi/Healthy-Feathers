@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Exo;
+	width: 100%;
+}
+body{
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.logo{
+	width: 100px;
+	height: 100px;
+	margin-left: 226px;
+	margin-top: 20px;
+}
+.flex-container {
+    display: flex;
+}
+.upload{
+	margin-top: 60px;
+	width: 100%;
+}
+p{
+	font-size: 40px;
+	font-weight: 600;
+	margin-left: 245px;
+	letter-spacing: 5px;
+	line-height: 40px;
+}
+.gallery{
+	display:flex;
+	cursor:pointer;
+	width: 200px;
+	height: 200px;
+	margin-top: 40px;
+	margin-left: 350px;
+}
+.fi{
+	cursor: pointer;
+	display: none;
+}
+.up{
+	display: none;
+}
+.rectangle{
+	cursor: pointer;
+	width: 200px;
+	height: 50px;
+	background: linear-gradient(to bottom right, rgba(236,34,41,0.3), #FFCD96);
+	border-radius: 10px;
+	box-shadow: 0px 4px 4px #000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: #000000;
+	margin-top: 20px;
+	margin-left: 350px;
+}
+input[value=Submit]{
+	cursor: pointer;
+	width: 200px;
+	height: 50px;
+	background: rgba(236,34,41,0.4);
+	border-radius: 10px;
+	box-shadow: 0px 4px 4px #000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: #000000;
+	margin-top: 40px;
+	margin-left: 350px;
+}
+
+.img{
+	float: right;
+	display: block;
+	margin-left: 20px;
+}
+.chicken{
+	opacity: 0.7;
+	width: 600px;
+	height: 600px;
+}
+.camera{
+	display: none;
+}
+.btn{
+	display: none;
+}
+footer{
+	margin-top: auto;
+	background: linear-gradient(to bottom right, rgba(236,34,41,0.3), #FFCD96);
+}
+.social-media{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.social-media a{
+	text-decoration: none;
+	font-size: 30px;
+	margin: 20px 20px;
+	color: #000;
+	opacity: 0.7;
+	width: 25.73px;
+	height: 40px;
+}
+.rights{
+	letter-spacing: 2px;
+	font-size: 0.8em;
+	color: #000;
+	text-align: center;
+	margin: unset;
+	line-height: 25px;
+	padding-bottom: 10px;
+	opacity: 1;
+}
+
+
+
+/*****************************************Mobile View****************************************/
+@media only screen and (max-width: 480px){ 
+	.logo{
+	width: 70px;
+	height: 70px;
+	margin-left: 40px;
+	margin-top: 10px;
+	}
+	.flex-container{
+		display: block;
+	}
+	.upload{
+		margin-top: 30px;
+	}
+	p{
+		font-size: 20px;
+		margin:auto;
+		letter-spacing: 5px;
+		text-align: center;
+	}
+	.image{
+		margin-top: 20px;
+	}
+	.gallery{
+		display: block;
+	    width: 60px;
+	    height: 60px;
+	    margin: auto;
+    }
+    .button{
+    	margin-top: 10px;
+    }
+	.rectangle{
+		float: none;
+		width: 150px;
+		height: 40px;
+		margin:auto;
+	}
+	a{
+		font-size: 13px;
+	}
+	.camera{
+		display: block;
+		margin-top: 20px;
+	}
+	.cam{
+		display:block;
+	    width: 100px;
+	    height: 70px;
+	    margin: auto;
+    }
+    .btn{
+    	display: block;
+    	margin-top: 10px;
+    }
+	.rectangle1{
+	cursor: pointer;
+	width: 150px;
+	height: 40px;
+	background: linear-gradient(to bottom right, rgba(236,34,41,0.3), #FFCD96);
+	border-radius: 10px;
+	box-shadow: 0px 4px 4px #000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: #000000;
+	margin:auto;
+	}
+	.sub{
+    	display: block;
+    	margin-top: 10px;
+    }
+	input[value=Submit]{
+	width: 150px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: #000000;
+	margin:auto;
+	margin-top: 40px;
+	}
+	.footer{
+		margin-bottom: 0;
+	}
+	.img{
+		display: none;
+	}
+	.social-media a{
+		font-size: 20px;
+		margin: 10px 10px;
+		height: 20px;
+	}
+	.rights{
+		font-size: 0.5em;
+	}
+}
